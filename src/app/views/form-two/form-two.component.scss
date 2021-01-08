@@ -1,0 +1,23 @@
+.row {
+    padding: 1%;
+}
+
+.form {
+    position: relative;
+    padding: 2% 5% 2% 2%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    border-style: solid;
+    border-width: 1px;
+    display: inline-block;
+}
+
+.formTitle {
+    padding-left: 1%;
+}
+
+@media only screen and (max-width: 768px) {
+    .form {
+        padding-right: 14%;
+    }
+}

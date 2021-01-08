@@ -7,6 +7,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './views/home/home.component';
 import { ConfirmationComponent } from './views/confirmation/confirmation.component';
+import { FormTwoComponent } from './views/form-two/form-two.component';
 
 import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatInputModule} from '@angular/material/input';
@@ -15,12 +16,12 @@ import {MatButtonToggleModule} from '@angular/material/button-toggle';
 import {MatRadioModule} from '@angular/material/radio';
 import {MatButtonModule} from '@angular/material/button';
 
-
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     ConfirmationComponent,
+    FormTwoComponent,
   ],
   imports: [
     BrowserModule,
