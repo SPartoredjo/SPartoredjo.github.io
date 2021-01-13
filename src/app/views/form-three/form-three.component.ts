@@ -8,11 +8,11 @@ interface Institution {
 }
 
 @Component({
-  selector: 'app-home',
-  templateUrl: './home.component.html',
-  styleUrls: ['./home.component.scss']
+  selector: 'app-form-three',
+  templateUrl: './form-three.component.html',
+  styleUrls: ['./form-three.component.scss']
 })
-export class HomeComponent implements OnInit {
+export class FormThreeComponent implements OnInit {
 
   public show: boolean = true;
 
@@ -30,28 +30,23 @@ export class HomeComponent implements OnInit {
   }
 
   ngOnInit(): void {
-  }
 
-  submit() {
-    if(this.debtForm.valid) {
-      this.router.navigate(['/confirmation']);
-    }
   }
 
   initForm() {
     this.debtForm = this.fb.group({
-      fname: ['', Validators.required],
-      lname: ['', Validators.required],
-      age: ['', Validators.required],
-      address: ['', Validators.required],
-      zipcode: ['', Validators.required],
-      city: ['', Validators.required],
       school: ['', Validators.required],
       debt: ['no'],
       debtAmount: ['Higher than 1000'],
       email: ['no'],
       wallet: ['', Validators.required],
     })
+  }
+
+  submit() {
+    if(this.debtForm.valid) {
+      this.router.navigate(['/confirmation']);
+    }
   }
 
   detectChange() {

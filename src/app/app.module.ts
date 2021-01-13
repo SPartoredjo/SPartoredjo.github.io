@@ -8,6 +8,7 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './views/home/home.component';
 import { ConfirmationComponent } from './views/confirmation/confirmation.component';
 import { FormTwoComponent } from './views/form-two/form-two.component';
+import { FormThreeComponent } from './views/form-three/form-three.component';
 
 import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatInputModule} from '@angular/material/input';
@@ -22,6 +23,7 @@ import {MatButtonModule} from '@angular/material/button';
     HomeComponent,
     ConfirmationComponent,
     FormTwoComponent,
+    FormThreeComponent,
   ],
   imports: [
     BrowserModule,
