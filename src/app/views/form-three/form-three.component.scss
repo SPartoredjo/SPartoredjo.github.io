@@ -4,7 +4,7 @@
 
 .form {
     position: relative;
-    padding-right: 8%;
+    padding: 2% 5% 2% 2%;
     margin-top: 1%;
     margin-bottom: 1%;
     border-style: solid;
@@ -12,6 +12,9 @@
     display: inline-block;
 }
 
+.formTitle {
+    padding-left: 1%;
+}
 .mat-button-toggle-checked {
     background-color: #2196F3;
     color: white;
@@ -25,10 +28,6 @@
   
 .radioButton {
     margin: 5px;
-}
-
-.formTitle {
-    padding-left: 1%;
 }
 
 @media only screen and (max-width: 768px) {

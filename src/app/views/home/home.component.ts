@@ -16,10 +16,10 @@ export class HomeComponent implements OnInit {
 
   public show: boolean = true;
 
-  institutions: Institution[] = [
-    {name: 'The Hague University of Applied Science', code: 'HHS'},
-    {name: 'Imagine je kent een andere hoge school', code: 'Yikes'}
-  ];
+  // institutions: Institution[] = [
+  //   {name: 'The Hague University of Applied Science', code: 'HHS'},
+  //   {name: 'Imagine je kent een andere hoge school', code: 'Yikes'}
+  // ];
 
   debts: string[] = ['Higher than 1000', 'Higher than 2000', 'Higher than 3000', 'Higher than 4000'];
 
@@ -46,7 +46,7 @@ export class HomeComponent implements OnInit {
       address: ['', Validators.required],
       zipcode: ['', Validators.required],
       city: ['', Validators.required],
-      school: ['', Validators.required],
+      // school: ['', Validators.required],
       debt: ['no'],
       debtAmount: ['Higher than 1000'],
       email: ['no'],

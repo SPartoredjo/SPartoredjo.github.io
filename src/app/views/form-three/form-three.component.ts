@@ -16,10 +16,10 @@ export class FormThreeComponent implements OnInit {
 
   public show: boolean = true;
 
-  institutions: Institution[] = [
-    {name: 'The Hague University of Applied Science', code: 'HHS'},
-    {name: 'Imagine je kent een andere hoge school', code: 'Yikes'}
-  ];
+  // institutions: Institution[] = [
+  //   {name: 'The Hague University of Applied Science', code: 'HHS'},
+  //   {name: 'Imagine je kent een andere hoge school', code: 'Yikes'}
+  // ];
 
   debts: string[] = ['Higher than 1000', 'Higher than 2000', 'Higher than 3000', 'Higher than 4000'];
 
@@ -35,7 +35,7 @@ export class FormThreeComponent implements OnInit {
 
   initForm() {
     this.debtForm = this.fb.group({
-      school: ['', Validators.required],
+      // school: ['', Validators.required],
       debt: ['no'],
       debtAmount: ['Higher than 1000'],
       email: ['no'],
