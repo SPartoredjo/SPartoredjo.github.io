@@ -14,8 +14,8 @@ const routes: Routes = [
   { path: 'form-three', component: FormThreeComponent },
   { path: 'form-four', component: FormFourComponent },
 
-  { path: "", redirectTo: "login", pathMatch: "full" },
-  { path: "**", redirectTo: "login", pathMatch: "full" }
+  { path: "", redirectTo: "home", pathMatch: "full" },
+  { path: "**", redirectTo: "home", pathMatch: "full" }
 ];
 
 @NgModule({
@@ -23,4 +23,3 @@ const routes: Routes = [
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
- 
