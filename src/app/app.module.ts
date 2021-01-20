@@ -17,7 +17,6 @@ import {MatSelectModule} from '@angular/material/select';
 import {MatButtonToggleModule} from '@angular/material/button-toggle';
 import {MatRadioModule} from '@angular/material/radio';
 import {MatButtonModule} from '@angular/material/button';
-import { StudieschuldTokenComponent } from './views/studieschuld-token/studieschuld-token.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +26,6 @@ import { StudieschuldTokenComponent } from './views/studieschuld-token/studiesch
     FormTwoComponent,
     FormThreeComponent,
     FormFourComponent,
-    StudieschuldTokenComponent,
   ],
   imports: [
     BrowserModule,
