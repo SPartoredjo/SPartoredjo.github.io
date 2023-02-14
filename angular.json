@@ -32,9 +32,21 @@
             ],
             "styles": [
               "./node_modules/@angular/material/prebuilt-themes/indigo-pink.css",
-              "src/styles.scss"
+              "src/styles.scss",
+              "./node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "src/assets/vendor/aos/aos.css",
+              "src/assets/vendor/bootstrap-icons/bootstrap-icons.css",
+              "src/assets/vendor/boxicons/css/boxicons.min.css",
+              "src/assets/vendor/glightbox/css/glightbox.min.css",
+              "src/assets/vendor/swiper/swiper-bundle.min.css"
             ],
-            "scripts": []
+            "scripts": [
+              "./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js",
+              "src/assets/js/main.js",
+              "src/assets/vendor/aos/aos.js",
+              "src/assets/vendor/swiper/swiper-bundle.min.js",
+              "src/assets/vendor/glightbox/js/glightbox.min.js"
+            ]
           },
           "configurations": {
             "production": {
